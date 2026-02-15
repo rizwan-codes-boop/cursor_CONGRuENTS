@@ -7,7 +7,7 @@
 #define PHYSICAL_CONSTANTS_H
 
 #include <math.h>
-
+#define M_PI 3.14159265358979323846
 // Masses in GeV
 #define m_e__GeV 0.5109989461e-3  // Electron mass in GeV
 #define m_p__GeV 0.9382720813     // Proton mass in GeV

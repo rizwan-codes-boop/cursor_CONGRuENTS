@@ -3,8 +3,8 @@
 
 #include <math.h>
 
-#include "physical_constants.h"
-#include "gsl_decs.h"
+#include "../physical_constants.h"
+#include "../gsl_decs.h"
 
 /*
  * simple assumption of diffusion according to MW estimate in MK2020+ for now

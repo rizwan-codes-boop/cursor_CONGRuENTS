@@ -7,7 +7,7 @@
 #include <math.h>
 
 #include "astro_const.h"
-#include "gal_rad.h"
+#include "CR_spectra/gal_rad.h"
 #include "gen_funcs.h"
 
 typedef struct data_obj_1Ds

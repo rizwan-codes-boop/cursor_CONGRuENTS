@@ -4,9 +4,9 @@
 #include <math.h>
 #include <gsl_spline2d.h>
 
-#include "physical_constants.h"
-#include "gsl_decs.h"
-#include "data_objects.h"
+#include "../physical_constants.h"
+#include "../gsl_decs.h"
+#include "../gsl_decs.h"
 
 //Differential cross-section for bremsstrahlung emission in mb GeV^-1
 double dsigma_BSdEgamm1__mbGeVm1( double E_gam__GeV, double E_e__GeV, gsl_spline_object_1D Phi_1H_gso1D, gsl_spline_object_1D Phi_2H_gso1D )

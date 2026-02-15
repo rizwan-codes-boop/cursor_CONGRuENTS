@@ -2,7 +2,7 @@
 #define ionisation_h
 
 #include <math.h>
-#include "../share/physical_constants.h"
+#include "../physical_constants.h"
 
 
 /*

@@ -6,7 +6,7 @@
 #include "synchrotron.h"
 #include "inverse_Compton.h"
 #include "bremsstrahlung.h"
-#include "gsl_decs.h"
+#include "../gsl_decs.h"
 
 double P_total__GeVm1sm1( double E_e__GeV, double E_f__GeV, double n_gso2D, gsl_spline_object_2D * gso_2D_radfield, double n_H__cmm3, gsl_spline_object_2D gso2D_BS )
 {

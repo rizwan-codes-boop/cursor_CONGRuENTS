@@ -25,10 +25,10 @@
 #include <cubature.h>
 #include <gsl_spline2d.h>
 
-#include "math_funcs.h"
-#include "physical_constants.h"
-#include "gsl_decs.h"
-#include "data_objects.h"
+#include "../math_funcs.h"
+#include "../physical_constants.h"
+#include "../gsl_decs.h"
+#include "../data_objects.h"
 
 //Data structure for passing to hcubature IC integrator
 struct hcub_data_IC 
